@@ -1,0 +1,26 @@
+'''
+ten = input("tên của bạn là gì")
+tuoi = input ("bạn sinh năm bao nhiêu")
+print("xin chào ",ten,tuoi)
+'''
+'''
+"hello" + "holle" = helloholle
+HI **3
+'''
+
+#câu 1/2
+print("số tiền VNĐ của 1$ là:",end =" " )
+print(35205000/1500)
+
+#câu 2
+tqd = float(input("số tiền cần quy đổi"))
+kq2 = tqd * 23470
+print("số tiền VNĐ của" + tqd +"dôla" + str(kq2))
+
+#câu 3A
+print("số tháng mà người dùng kiếm được số tiền 367.329.673 là:",end = " ")
+print(367329673/1340233,"Tháng")
+
+#câu 3B
+print("số $ người dùng kiếm được trong 274 tháng là",end=" ")
+print(1340233*23470*274,"$")
