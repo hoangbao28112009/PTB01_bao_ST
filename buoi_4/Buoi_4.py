@@ -16,4 +16,8 @@ if (A == 5 or 6 or 7):
 elif (A < 5):
     print("yếu")
     #bài 3
+    #bài 4
+    a = int(float(input("tháng: "))) 
+    if (a == 1 or 3 or 5 or 7 or 8 or 10 or 12):
+        print(31,"ngày")
 
