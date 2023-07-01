@@ -1,0 +1,47 @@
+'''
+1A
+2B
+3D
+4C
+5D
+6D
+7C
+8B
+9D
+10C
+11D
+12A
+13A
+14B
+15C
+16C
+17D
+18B
+19A
+20A
+21C
+'''
+#bài 1
+'''
+t = int(input("loại tài liệu:"))
+p = int(input("số trang:"))
+c = int(input("số bản cần in:"))
+if (t == 1):
+   print("số giấy cần dùng:",p * c )
+elif (t == 2):
+   print("số giấy cần dùng:",p * 2 * c )
+'''
+#bài2 
+a = int(input("số điện đã sử dụng:"))
+if( a <= 50):
+    print ("đơn giá 1.728 đồng/kwh")
+elif (a >= 51 and a <= 100):
+   print ("đơn giá 1.768 đồng/kwh")
+if (a >= 101 and a  <= 200):
+        print ("đơn giá 2,074 đồng/kwh")
+elif (a >= 201 and a <= 300):
+    print("đơn giá 2.612 đồng/kwh")
+if (a >= 301 and a <=400 ):
+        print("đơn giá 2.919 đồng/kwh")
+elif (a >= 401):
+    print("đơn giá 3.015 đồng/kwh")
